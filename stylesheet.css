@@ -3,43 +3,55 @@
     text-align: center;
   } 
 
-  p1 {
-    color: rgb(79, 41, 80);
-    text-align: left;
-  } 
+p1 {
+color: rgb(79, 41, 80);
+text-align: left;
+} 
 
-  h1.large {
-      font-size: 300%
-  }
+h1.large {
+    font-size: 300%
+}
 
-  h1.center {
-      text-align: center
-  }
+h1.center {
+    text-align: center
+}
 
-  h1.blue{
-      color: rgb(29, 10, 179)
-  }
+h1.blue{
+    color: rgb(29, 10, 179)
+}
 
-  b.red{
-      color: red
-  }
+b.red{
+    color: red
+}
 
-  body {
-      background-color: linen;
-  }
+body {
+    background-color: linen;
+}
 
-  #box {
-      background-color:aqua;
-      /* float:left; */
-      width: 280px;
-      border: 40px dashed;
-      padding: 50px;
-      /* padding-left: 20px;
-      padding-right: 100px; */
-      margin: 50px;
-      margin-left: auto;
-      margin-right: auto;
-  }
+.box {
+    background-color:aqua;
+    max-width: 350px;
+    height: 150px;
+    border: 20px dashed;
+    /* padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px; */
+    margin: 20px;
+    padding: 1%;
+    display: inline-block;
+    /* margin: 20%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
 
-  .link { color: #FF0000; } /* CSS link color (red) */
-  .link:hover { color: #00FF00; } /* CSS link hover (green) */
+#box-wrapper{
+    max-width: 2000px;
+    height: 400px;
+    background: #ccc;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.link { color: #FF0000; } /* CSS link color (red) */
+.link:hover { color: #00FF00; } /* CSS link hover (green) */
